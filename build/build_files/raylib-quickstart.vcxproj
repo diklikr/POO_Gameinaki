@@ -528,18 +528,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\Attacker.h" />
     <ClInclude Include="..\..\include\EjemploConstCast.h" />
     <ClInclude Include="..\..\include\GameObject.h" />
     <ClInclude Include="..\..\include\resource_dir.h" />
     <ClInclude Include="..\..\include\Sidekick.h" />
+    <ClInclude Include="..\..\include\Weapon.h" />
     <ClInclude Include="..\..\src\Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\Attacker.cpp" />
     <ClCompile Include="..\..\src\EjemploConstCast.cpp" />
     <ClCompile Include="..\..\src\GameObject.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
     <ClCompile Include="..\..\src\Player.cpp" />
     <ClCompile Include="..\..\src\Sidekick.cpp" />
+    <ClCompile Include="..\..\src\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="raylib.vcxproj">

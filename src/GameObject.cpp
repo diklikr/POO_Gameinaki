@@ -1,5 +1,7 @@
 #include "GameObject.h"
 
+using namespace LoW;
+
 void GameObject::update()
 {
 }

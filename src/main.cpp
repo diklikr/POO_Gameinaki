@@ -15,16 +15,18 @@ by Jeffery Myers is marked with CC0 1.0. To view a copy of this license, visit h
 #include "Player.h"
 #include "Sidekick.h"
 #include <vector>
+#include "Attacker.h"
 
 
-using namespace std;
+//using namespace std;
+using namespace LoW;
 
 
 int main ()
 {
 	// Tell the window to use vsync and work on high DPI displays
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
-	cout << "Inicializando sistema de juego" << endl;
+	std::cout << "Inicializando sistema de juego" << std::endl;
 
 	// Create the window and OpenGL context
 	InitWindow(1280, 800, "Hello Raylib");
@@ -57,6 +59,8 @@ int main ()
 	// Load a texture from the resources directory
 	//Texture wabbit = LoadTexture("wabbit_alpha.png");
 	
+	//Player* other = new Player();
+
 	for (GameObject* obj : gameObjects)
 	{
 		Player* p = dynamic_cast<Player*>(obj);
