@@ -1,0 +1,10 @@
+﻿  GameObject.cpp
+C:\Users\alumnos\Desktop\raylib_inaki\src\GameObject.cpp(10,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\alumnos\Desktop\raylib_inaki\src\GameObject.cpp(10,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\alumnos\Desktop\raylib_inaki\src\GameObject.cpp(14,49): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\alumnos\Desktop\raylib_inaki\src\GameObject.cpp(14,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  main.cpp
+  Player.cpp
+  Generando código...
+  LINK : no se encontró ..\..\bin\Debug\raylib-quickstart.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+  raylib-quickstart.vcxproj -> C:\Users\alumnos\Desktop\raylib_inaki\bin\Debug\raylib-quickstart.exe
