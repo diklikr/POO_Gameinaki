@@ -532,6 +532,7 @@
     <ClInclude Include="..\..\include\GameObject.h" />
     <ClInclude Include="..\..\include\resource_dir.h" />
     <ClInclude Include="..\..\include\Sidekick.h" />
+    <ClInclude Include="..\..\include\Weapon.h" />
     <ClInclude Include="..\..\src\Player.h" />
   </ItemGroup>
   <ItemGroup>
@@ -540,6 +541,7 @@
     <ClCompile Include="..\..\src\main.cpp" />
     <ClCompile Include="..\..\src\Player.cpp" />
     <ClCompile Include="..\..\src\Sidekick.cpp" />
+    <ClCompile Include="..\..\src\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="raylib.vcxproj">

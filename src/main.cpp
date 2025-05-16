@@ -1,16 +1,8 @@
-/*
-Raylib example file.
-This is an example main file for a simple raylib project.
-Use this as a starting point or replace it with your code.
-
-by Jeffery Myers is marked with CC0 1.0. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/
-
-*/
 #include <iostream>
 #include <string>
 #include "raylib.h"
 
-#include "resource_dir.h"	// utility header for SearchAndSetResourceDir
+#include "resource_dir.h"	
 #include "GameObject.h"
 #include "Player.h"
 #include "Sidekick.h"
@@ -26,7 +18,7 @@ int main ()
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
 	std::cout << "Inicializando sistema de juego" << std::endl;
 
-	// Create the window and OpenGL context
+	
 	InitWindow(1280, 800, "Hello Raylib");
 
 	// Utility function from resource_dir.h to find the resources folder and set it as the current working directory so we can load from it
