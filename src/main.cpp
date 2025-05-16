@@ -17,14 +17,14 @@ by Jeffery Myers is marked with CC0 1.0. To view a copy of this license, visit h
 #include <vector>
 
 
-using namespace std;
+//using namespace std;
 
 
 int main ()
 {
 	// Tell the window to use vsync and work on high DPI displays
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
-	cout << "Inicializando sistema de juego" << endl;
+	std::cout << "Inicializando sistema de juego" << std::endl;
 
 	// Create the window and OpenGL context
 	InitWindow(1280, 800, "Hello Raylib");
@@ -34,7 +34,7 @@ int main ()
 
 	std::vector<GameObject*> gameObjects;
 
-	GameObject* myObj = new GameObject({ 200,200 }, "myObj", LoadTexture("mono.png"));
+	GameObject* myObj = new GameObject({ 200,200 }, "myObj", LoadTexture("pingu.png"));
 	myObj->displayName = true;
 	gameObjects.push_back(myObj);
 
@@ -49,9 +49,9 @@ int main ()
 	gameObjects.push_back(sidekick);
 
 	Sidekick* sidekick2 = new Sidekick({ 500,0 }, "Sidekick2", LoadTexture("sidekick.png"));
-	sidekick->speed = 190.0f;
-	sidekick->owner = playerCharacter;
-	sidekick->displayName = true;
+	sidekick2->speed = 190.0f;
+	sidekick2->owner = playerCharacter;
+	sidekick2->displayName = true;
 	gameObjects.push_back(sidekick2);
 
 	// Load a texture from the resources directory
