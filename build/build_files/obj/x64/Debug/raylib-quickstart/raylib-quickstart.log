@@ -1,27 +1,2 @@
-﻿  Attacker.cpp
-  EjemploConstCast.cpp
-  GameObject.cpp
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(11,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(11,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(15,49): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(15,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  main.cpp
-  Player.cpp
-  Sidekick.cpp
-  Weapon.cpp
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(11,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "../../src/Weapon.cpp")
-  
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(11,31): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "../../src/Weapon.cpp")
-  
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(15,49): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "../../src/Weapon.cpp")
-  
-C:\Users\ALUMNOS\Desktop\raylib_inaki\src\GameObject.cpp(15,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "../../src/Weapon.cpp")
-  
-  Generando código...
-Weapon.obj : error LNK2005: ya se definió "public: void __cdecl LoW::GameObject::draw(void)" (?draw@GameObject@LoW@@QEAAXXZ) en GameObject.obj
-Weapon.obj : error LNK2005: ya se definió "public: virtual void __cdecl LoW::GameObject::update(void)" (?update@GameObject@LoW@@UEAAXXZ) en GameObject.obj
-..\..\bin\Debug\raylib-quickstart.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
+﻿  main.cpp
+  raylib-quickstart.vcxproj -> C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe

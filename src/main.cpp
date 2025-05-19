@@ -1,25 +1,15 @@
-/*
-Raylib example file.
-This is an example main file for a simple raylib project.
-Use this as a starting point or replace it with your code.
-
-by Jeffery Myers is marked with CC0 1.0. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/
-
-*/
 #include <iostream>
 #include <string>
 #include "raylib.h"
 
-#include "resource_dir.h"	// utility header for SearchAndSetResourceDir
+#include "resource_dir.h"	
 #include "GameObject.h"
 #include "Player.h"
 #include "Sidekick.h"
 #include <vector>
-#include "Attacker.h"
 
 
 //using namespace std;
-using namespace LoW;
 
 
 int main ()
@@ -28,7 +18,7 @@ int main ()
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
 	std::cout << "Inicializando sistema de juego" << std::endl;
 
-	// Create the window and OpenGL context
+	
 	InitWindow(1280, 800, "Hello Raylib");
 
 	// Utility function from resource_dir.h to find the resources folder and set it as the current working directory so we can load from it
@@ -36,7 +26,7 @@ int main ()
 
 	std::vector<GameObject*> gameObjects;
 
-	GameObject* myObj = new GameObject({ 200,200 }, "myObj", LoadTexture("mono.png"));
+	GameObject* myObj = new GameObject({ 200,200 }, "myObj", LoadTexture("pingu.png"));
 	myObj->displayName = true;
 	gameObjects.push_back(myObj);
 
@@ -51,16 +41,14 @@ int main ()
 	gameObjects.push_back(sidekick);
 
 	Sidekick* sidekick2 = new Sidekick({ 500,0 }, "Sidekick2", LoadTexture("sidekick.png"));
-	sidekick->speed = 190.0f;
-	sidekick->owner = playerCharacter;
-	sidekick->displayName = true;
+	sidekick2->speed = 190.0f;
+	sidekick2->owner = playerCharacter;
+	sidekick2->displayName = true;
 	gameObjects.push_back(sidekick2);
 
 	// Load a texture from the resources directory
 	//Texture wabbit = LoadTexture("wabbit_alpha.png");
 	
-	//Player* other = new Player();
-
 	for (GameObject* obj : gameObjects)
 	{
 		Player* p = dynamic_cast<Player*>(obj);

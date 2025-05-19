@@ -1,25 +1,20 @@
 #pragma once
 #include "GameObject.h"
 #include <iostream>
-
-namespace LoW
+class Player:
+	public GameObject
 {
-	class Player :
-		public GameObject
-	{
-	public:
-		float speed = 10.0f;
+public:
+	float speed = 10.0f;
 
-		Player(Vector2 pos, std::string _name, Texture tex) :
-			GameObject(pos, _name, tex) {
-		}
+	Player(Vector2 pos, std::string _name, Texture tex) :
+		GameObject(pos, _name, tex) {}
 
-		void update() override;
+	void update() override;
 
-		void attack()
+	void attack()
 		{
 			std::cout << name << "Atacando" << std::endl;
 		}
-	};
-}
+};
 
