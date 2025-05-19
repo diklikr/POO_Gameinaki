@@ -7,4 +7,6 @@ class Attacker
 public: 
 	virtual void Fire() = 0;
 };
+
+
 }

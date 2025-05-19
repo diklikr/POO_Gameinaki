@@ -3,7 +3,7 @@
 
 namespace LoW
 {
-	class Weapon
+	class Weapon: public GameObject
 	{
 	};
 }

@@ -1,8 +1,13 @@
 #pragma once
 #include "GameObject.h"
 #include <iostream>
-class Player:
-	public GameObject
+#include "Attacker.h"
+
+
+using namespace LoW;
+
+class Player :
+	public GameObject, public Attacker
 {
 public:
 	float speed = 10.0f;
@@ -16,5 +21,12 @@ public:
 		{
 			std::cout << name << "Atacando" << std::endl;
 		}
+
+	void Fire();
+
+	Attacker* SetWeapon(Attacker* newWeapon);
+
+private: 
+	Attacker* weapon;
 };
 

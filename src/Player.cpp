@@ -1,6 +1,7 @@
 #include "Player.h"
 #include "Attacker.h"
 #include <iostream>
+#include "Weapon.h"
 
 using namespace LoW;
 
@@ -25,4 +26,23 @@ using namespace LoW;
 		{
 			position.y += speed * GetFrameTime();
 		}
+	}
+
+	void Player::Fire()
+	{
+
+	}
+
+	Attacker* Player::SetWeapon(Attacker* newWeapon)
+	{
+		if (newWeapon)
+		{
+			weapon = newWeapon;
+			Weapon* w = dynamic_cast<Weapon*>(weapon);
+			if (w)
+				std::cout << "Cambiando Arma a " << w->name << std::endl;
+
+			return weapon;
+		}
+		return nullptr;
 	}
