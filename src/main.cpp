@@ -32,7 +32,11 @@ int main ()
 
 	Player* playerCharacter = new Player({ 0,0 }, "Player1", LoadTexture("wabbit_alpha.png"));
 	playerCharacter->speed = 200.0f;
-	gameObjects.push_back(playerCharacter);
+	gameObjects.push_back(static_cast<GameObject*>(playerCharacter));
+
+	Weapon* w = new Weapon({ 500,500 }, "Sword", LoadTexture("sword.png"));
+	playerCharacter->SetWeapon(w);
+	gameObjects.push_back(w);
 
 	Sidekick* sidekick = new Sidekick({ 500,0 }, "Sidekick1", LoadTexture("sidekick.png"));
 	sidekick->speed = 199.0f;

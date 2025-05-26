@@ -14,6 +14,14 @@ namespace LoW
 		Texture texture;
 		bool displayName = false;
 
+		GameObject() :
+			position({ 0,0 }),
+			name("GameObject"),
+			texture({ 0 })
+		{
+
+		}
+
 		GameObject(Vector2 pos, std::string _name, Texture tex) :
 			position(pos), name(_name), texture(tex) {
 		}
