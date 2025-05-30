@@ -35,13 +35,16 @@ namespace LoW
 
 		Attacker* weapon;
 
+		bool shouldPromptForWeapon = false;
+		const char* weaponPrompt = "Presiona F para recoger arma";
+
 	public:
 		float speed = 10.0f;
 
 		Player(Vector2 pos, std::string _name) :
 			weapon(nullptr) 
 		{
-			texture = LoadTexture("boy.png")
+			texture = LoadTexture("boy-r.png");
 			animData.spriteHeight = 80;
 			animData.spriteWidth = 64;
 			animData.frameCounter = 0;
@@ -55,6 +58,8 @@ namespace LoW
 
 		void update() override;
 
+		void draw() override;
+
 		void attack()
 		{
 			std::cout << name << "Atacando" << std::endl;
@@ -64,8 +69,6 @@ namespace LoW
 
 		Attacker* SetWeapon(Attacker* newWeapon);
 
-	private:
-		Attacker* weapon;
 	};
 }
 

@@ -17,6 +17,10 @@
     <ClInclude Include="..\..\include\Sidekick.h" />
     <ClInclude Include="..\..\include\EjemploConstCast.h" />
     <ClInclude Include="..\..\include\Weapon.h" />
+    <ClInclude Include="..\..\include\Attacker.h" />
+    <ClInclude Include="..\..\include\View.h" />
+    <ClInclude Include="..\..\include\UIsystem.h" />
+    <ClInclude Include="..\..\include\Label.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -27,5 +31,9 @@
     <ClCompile Include="..\..\src\Sidekick.cpp" />
     <ClCompile Include="..\..\src\EjemploConstCast.cpp" />
     <ClCompile Include="..\..\src\Weapon.cpp" />
+    <ClCompile Include="..\..\src\Attacker.cpp" />
+    <ClCompile Include="..\..\src\View.cpp" />
+    <ClCompile Include="..\..\src\UIsystem.cpp" />
+    <ClCompile Include="..\..\src\Label.cpp" />
   </ItemGroup>
 </Project>

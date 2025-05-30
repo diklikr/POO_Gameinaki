@@ -1,6 +1,8 @@
 #pragma once
 #include "raylib.h"
 #include "string"
+#include <iostream>
+#include <vector>
 //using namespace std;
 namespace LoW
 {
@@ -13,6 +15,8 @@ namespace LoW
 
 		Texture texture;
 		bool displayName = false;
+
+		static std::vector<GameObject*> gameObjects;
 
 		GameObject() :
 			position({ 0,0 }),
@@ -28,7 +32,7 @@ namespace LoW
 
 		virtual void update();
 
-		void draw();
+		virtual void draw();
 
 	};
 }

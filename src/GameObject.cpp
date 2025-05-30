@@ -2,6 +2,8 @@
 
 using namespace LoW;
 
+std::vector < GameObject* > GameObject::gameObjects;
+
 void GameObject::update()
 {
 }
