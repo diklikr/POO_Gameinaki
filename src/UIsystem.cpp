@@ -9,17 +9,17 @@ Label* UIsystem::createLabel(const char* text, int x, int y, int fontSize)
 	label->rect.x = x;
 	label->rect.y = y;
 	label->fontSize = fontSize;
-	view.push_back(label);
+	views.push_back(label);
 	return label;
 }
 
-void UIsystem::Draw()
+void UIsystem::draw()
 {
 	 
 	for (View* view : views)
 	{
 		if (view->visible)
-			view->Draw();
+			view->draw();
 	}
 }
 

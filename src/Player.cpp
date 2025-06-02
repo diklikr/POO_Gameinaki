@@ -45,6 +45,7 @@ using namespace LoW;
 		if (weapon)
 		{
 			Weapon* w = dynamic_cast<Weapon*>(weapon);
+			w->position = Vector2Add(position, w->offset);
 				
 		}
 		for (GameObject* obj : GameObject::gameObjects)
@@ -104,4 +105,17 @@ using namespace LoW;
 			return weapon;
 		}
 		return nullptr;
+	}
+
+	void Player::SetSidekick(Sidekick* newSidekick, int index)
+	{
+		if (index >= 0 && index < 3)
+		{
+			newSidekick->owner = this;
+			sidekicks[index] = newSidekick;
+		}
+		else
+		{
+			std::cout << "Indice de sidekick invalido" << std::endl;
+		}
 	}

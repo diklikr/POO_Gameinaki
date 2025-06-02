@@ -1,2 +1,29 @@
-﻿  main.cpp
-  raylib-quickstart.vcxproj -> C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe
+﻿  button.cpp
+  main.cpp
+  Player.cpp
+  Sidekick.cpp
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(37,11): error C2143: error de sintaxis: falta ';' delante de '*'
+  Generando código...
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(37,3): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(37,16): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(38,11): error C2143: error de sintaxis: falta ';' delante de '*'
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(38,3): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(38,25): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(73,20): error C2061: error de sintaxis: identificador 'Sidekick'
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  
+C:\Users\ALUMNOS\Desktop\raylib_inaki\src\Player.h(47,21): error C2614: 'LoW::Player': inicialización de miembro no válida: 'sidekicks' no es una base o miembro
+  (compilando archivo de origen "../../src/Sidekick.cpp")
+  

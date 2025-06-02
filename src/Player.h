@@ -34,6 +34,8 @@ namespace LoW
 		SAnimData animData;
 
 		Attacker* weapon;
+		Sidekick* sdk;
+		Sidekick* sidekicks[2];
 
 		bool shouldPromptForWeapon = false;
 		const char* weaponPrompt = "Presiona F para recoger arma";
@@ -42,7 +44,7 @@ namespace LoW
 		float speed = 10.0f;
 
 		Player(Vector2 pos, std::string _name) :
-			weapon(nullptr) 
+			weapon(nullptr), sidekicks{nullptr,nullptr}
 		{
 			texture = LoadTexture("boy-r.png");
 			animData.spriteHeight = 80;
@@ -68,6 +70,7 @@ namespace LoW
 		void Fire();
 
 		Attacker* SetWeapon(Attacker* newWeapon);
+		void SetSidekick(Sidekick* newsidekick, int index);
 
 	};
 }

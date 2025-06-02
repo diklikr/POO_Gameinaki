@@ -44,12 +44,14 @@ int main ()
 	GameObject::gameObjects.push_back(w);
 
 	Sidekick* sidekick = new Sidekick({ 500,0 }, "Sidekick1", LoadTexture("sidekick.png"));
+	playerCharacter->SetSidekick(sidekick, 0);
 	sidekick->speed = 199.0f;
 	sidekick->owner = playerCharacter;
 	sidekick->displayName = true;
 	GameObject::gameObjects.push_back(sidekick);
 
 	Sidekick* sidekick2 = new Sidekick({ 500,0 }, "Sidekick2", LoadTexture("sidekick.png"));
+	playerCharacter->SetSidekick(sidekick2, 1);
 	sidekick2->speed = 190.0f;
 	sidekick2->owner = playerCharacter;
 	sidekick2->displayName = true;

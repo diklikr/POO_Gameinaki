@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "raymath.h"
 #include <iostream>
+#include "GameObject.h"
 
 namespace LoW
 {
@@ -13,6 +14,7 @@ namespace LoW
 		GameObject* owner;
 
 		Sidekick(Vector2 pos, std::string _name, Texture tex) :
+			owner(nullptr),
 			GameObject(pos, _name, tex) {
 
 		}

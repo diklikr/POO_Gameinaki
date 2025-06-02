@@ -4,8 +4,11 @@ class Label :
     public View
 {
 public:
-    void update() override;
+    
+    const char* text = "Label";
+    int fontSize = 20;
 
+    void update() override;
     void draw() override;
 };
 

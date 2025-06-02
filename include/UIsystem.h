@@ -28,14 +28,14 @@ public:
 	}
 	Label* createLabel(const char* text, int x, int y, int fontSize = 20);
 
-	void Draw();
+	void draw();
 	static void Draw()
 	{
-		getInstance().Draw();
+		getInstance().draw();
 	}
 
 	void update();
-	static void update()
+	static void Update()
 	{
 		getInstance().update();
 	}
