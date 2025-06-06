@@ -2,6 +2,8 @@
 #include <vector>
 #include "View.h"
 #include "Label.h" 
+#include "button.h"
+#include "image.h"
 #pragma once
 
 class UIsystem
@@ -26,7 +28,11 @@ public:
 	{
 		getInstance().test();
 	}
-	Label* createLabel(const char* text, int x, int y, int fontSize = 20);
+	Label* createLabel(const char* text, int x, int y, int fontSize = 30);
+
+	button* UIsystem::createbutton(const char* text, int x, int y, int w, int h, int fontsize = 30);
+	
+	image* UIsystem::createimage(int x, int y, Texture img);
 
 	void draw();
 	static void Draw()

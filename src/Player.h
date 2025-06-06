@@ -49,6 +49,8 @@ namespace LoW
 			texture = LoadTexture("boy-r.png");
 			animData.spriteHeight = 80;
 			animData.spriteWidth = 64;
+			 
+
 			animData.frameCounter = 0;
 			animData.currentFrame = 0;
 			animData.maxFrames = 4;

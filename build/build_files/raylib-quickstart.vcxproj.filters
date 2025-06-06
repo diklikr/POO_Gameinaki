@@ -22,6 +22,8 @@
     <ClInclude Include="..\..\include\UIsystem.h" />
     <ClInclude Include="..\..\include\Label.h" />
     <ClInclude Include="..\..\include\button.h" />
+    <ClInclude Include="..\..\include\image.h" />
+    <ClInclude Include="..\..\include\enemigo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -37,5 +39,7 @@
     <ClCompile Include="..\..\src\UIsystem.cpp" />
     <ClCompile Include="..\..\src\Label.cpp" />
     <ClCompile Include="..\..\src\button.cpp" />
+    <ClCompile Include="..\..\src\image.cpp" />
+    <ClCompile Include="..\..\src\enemigo.cpp" />
   </ItemGroup>
 </Project>

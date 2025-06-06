@@ -38,7 +38,7 @@ using namespace LoW;
 			if (animData.currentFrame >= animData.maxFrames)
 				animData.currentFrame = 0;
 
-			std::cout << "Frame: " << animData.currentFrame << std::endl;
+			/*std::cout << "Frame: " << animData.currentFrame << std::endl;*/
 		}
 
 		

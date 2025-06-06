@@ -9,6 +9,7 @@
 #include "Player.h"
 #include "Sidekick.h"
 #include <vector>
+#include "button.h"
 
 
 //using namespace std;
@@ -28,16 +29,17 @@ int main ()
 
 	//std::vector<GameObject*> gameObjects;
 
-	GameObject* myObj = new GameObject({ 200,200 }, "PINGU", LoadTexture("pingu.png"));
-	myObj->displayName = true;
+	/*GameObject* myObj = new GameObject({ 200,200 }, "PINGU",*/ /*LoadTexture("pingu.png"));*/
+	/*myObj->displayName = true;*/
 
-	GameObject::gameObjects.push_back(myObj);
+	/*GameObject::gameObjects.push_back(myObj);*/
 
 	Player* playerCharacter = new Player({ 100, 100}, "Player1");
 	playerCharacter->speed = 200.0f;
 
 
 	GameObject::gameObjects.push_back(static_cast<GameObject*>(playerCharacter));
+
 
 	Weapon* w = new Weapon({ 200,200 }, "Sword", LoadTexture("sword.png"));
 	//playerCharacter->SetWeapon(w);
@@ -72,7 +74,11 @@ int main ()
 		}
 	}
 
-	UIsystem::getInstance().test();
+	UIsystem::getInstance().createbutton("Press to spawn", 300, 600, 240, 60, 30);
+
+	Texture t = LoadTexture("pingu.png");
+	UIsystem::getInstance().createimage(350, 350, t);
+
 
 	// game loop
 	while (!WindowShouldClose())		// run the loop untill the user presses ESCAPE or presses the Close button on the window
@@ -81,10 +87,12 @@ int main ()
 		{
 			obj->update();
 		}
+		
 
-		myObj->update();
+		/*myObj->update();*/
 		playerCharacter->update();
 		sidekick->update();
+		
 		// drawing
 		BeginDrawing();
 
@@ -106,7 +114,7 @@ int main ()
 		//{
 		//	/*DrawTexture(wabbit, 20+(i), 200, WHITE);*/
 		//}
-		myObj->draw();
+		/*myObj->draw();*/
 		playerCharacter->draw();
 		sidekick->draw();
 
