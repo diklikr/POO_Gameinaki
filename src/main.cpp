@@ -10,6 +10,7 @@
 #include "Sidekick.h"
 #include <vector>
 #include "button.h"
+#include "World.h"
 
 
 //using namespace std;
@@ -27,6 +28,8 @@ int main ()
 	// Utility function from resource_dir.h to find the resources folder and set it as the current working directory so we can load from it
 	SearchAndSetResourceDir("resources");
 
+
+	World::getInstance();
 	//std::vector<GameObject*> gameObjects;
 
 	/*GameObject* myObj = new GameObject({ 200,200 }, "PINGU",*/ /*LoadTexture("pingu.png"));*/
@@ -34,7 +37,7 @@ int main ()
 
 	/*GameObject::gameObjects.push_back(myObj);*/
 
-	Player* playerCharacter = new Player({ 100, 100}, "Player1");
+	Player* playerCharacter = new Player({ 260, 550}, "Player1");
 	playerCharacter->speed = 200.0f;
 
 
@@ -97,8 +100,9 @@ int main ()
 		BeginDrawing();
 
 		// Setup the back buffer for drawing (clear color and depth buffers)
-		ClearBackground(MAGENTA);
+		ClearBackground(SKYBLUE);
 
+		World::getInstance().Draw();
 		// draw some text using the default font
 		DrawText("Juego Con Pingu", 10, 10, 24, WHITE);
 

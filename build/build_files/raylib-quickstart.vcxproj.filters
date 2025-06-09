@@ -24,6 +24,7 @@
     <ClInclude Include="..\..\include\button.h" />
     <ClInclude Include="..\..\include\image.h" />
     <ClInclude Include="..\..\include\enemigo.h" />
+    <ClInclude Include="..\..\include\World.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -41,5 +42,6 @@
     <ClCompile Include="..\..\src\button.cpp" />
     <ClCompile Include="..\..\src\image.cpp" />
     <ClCompile Include="..\..\src\enemigo.cpp" />
+    <ClCompile Include="..\..\src\World.cpp" />
   </ItemGroup>
 </Project>

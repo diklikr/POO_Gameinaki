@@ -4,7 +4,7 @@
 #include "Attacker.h"
 #include "Weapon.h"
 #include "Sidekick.h"
-
+#include "World.h"
 
 namespace LoW
 {

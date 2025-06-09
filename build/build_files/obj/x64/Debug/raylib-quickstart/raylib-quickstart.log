@@ -1,18 +1,5 @@
-﻿  UIsystem.cpp
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(9,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(10,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(20,21): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(21,22): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(22,17): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(23,17): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(32,19): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\UIsystem.cpp(33,19): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-  button.cpp
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(22,48): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(22,36): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(22,28): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(22,20): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(23,29): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\src\button.cpp(23,21): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+﻿  main.cpp
+  World.cpp
   Generando código...
-  raylib-quickstart.vcxproj -> C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe
+main.obj : error LNK2001: símbolo externo "private: static class LoW::World * LoW::World::instance" (?instance@World@LoW@@0PEAV12@EA) sin resolver
+..\..\bin\Debug\raylib-quickstart.exe : fatal error LNK1120: 1 externos sin resolver

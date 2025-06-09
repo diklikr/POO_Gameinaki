@@ -6,28 +6,36 @@ using namespace LoW;
 
 
 
-	void Player::update()
+void Player::update()
+{
+
+	Vector2 newpos;
+	newpos = position;
+	if (IsKeyDown(KEY_A))
 	{
-		if (IsKeyDown(KEY_A))
-		{
-			position.x -= speed * GetFrameTime();
-			animData.direction = ANIM_LEFT;
-		}
-		if (IsKeyDown(KEY_D))
-		{
-			position.x += speed * GetFrameTime();
-			animData.direction = ANIM_RIGHT;
-		}
-		if (IsKeyDown(KEY_W))
-		{
-			position.y -= speed * GetFrameTime();
-			animData.direction = ANIM_UP;
-		}
-		if (IsKeyDown(KEY_S))
-		{
-			position.y += speed * GetFrameTime();
-			animData.direction = ANIM_DOWN;
-		}
+		newpos.x -= speed * GetFrameTime();
+		animData.direction = ANIM_LEFT;
+	}
+	if (IsKeyDown(KEY_D))
+	{
+		newpos.x += speed * GetFrameTime();
+		animData.direction = ANIM_RIGHT;
+	}
+	if (IsKeyDown(KEY_W))
+	{
+		newpos.y -= speed * GetFrameTime();
+		animData.direction = ANIM_UP;
+	}
+	if (IsKeyDown(KEY_S))
+	{
+		newpos.y += speed * GetFrameTime();
+		animData.direction = ANIM_DOWN;
+    }
+	if (!World::getInstance().CheckCollision(newpos))
+	{
+		position = newpos;
+	}
+
 		animData.frameCounter++;
 		
 		if (animData.frameCounter > animData.frameSpeed)
