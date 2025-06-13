@@ -16,6 +16,8 @@ namespace LoW
 		Texture background;
 		Image collisionMask;
 
+		unsigned char* collisionMaskdata;
+
 		static World& getInstance()
 		{
 			if (!instance) 
@@ -28,9 +30,10 @@ namespace LoW
 
 		void World1() 
 		{
-			background = LoadTexture("world1.png");
+			background = LoadTexture("world1.jpg");
 			collisionMask = LoadImage("world1_mask.png");
 			ImageFormat(&collisionMask, PIXELFORMAT_UNCOMPRESSED_GRAYSCALE);
+			collisionMaskdata = (unsigned char*)collisionMask.data;
 
 		}
 
@@ -42,12 +45,11 @@ namespace LoW
 		bool CheckCollision(Vector2 point)
 		{
 			int index = (point.y * collisionMask.width + point.x);
-		   
-			char* imgdata = (char*)collisionMask.data;
 
-			std::cout << "valor en pixel: " << point.x << "," << point.y << "," << (int)imgdata[index] << std::endl;
 
-			return (imgdata[index] != 0);
+			/*std::cout << "valor en pixel: " << point.x << "," << point.y << "," << std::hex << collisionMaskdata[index] << std::endl;*/
+
+			return collisionMaskdata[index] != 0;
 		}
 
 	};

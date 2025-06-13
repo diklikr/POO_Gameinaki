@@ -7,14 +7,14 @@ void button::update()
 {
 	if (CheckCollisionPointRec(GetMousePosition(), rect))
 	{
-		/*std::cout << "collision" << std::endl;*/
+		std::cout << "collision" << std::endl;
 		if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) 
 		{
-			enemigo* zombo = new enemigo({ 500,500 }, "Zombo1", LoadTexture("zombo.png"));
+			enemigo* zombo = new enemigo({(float) GetRandomValue(1,800),(float)GetRandomValue(1,800)}, "Zombo1", LoadTexture("zombo.jpg"));
 			GameObject::gameObjects.push_back(zombo);
+			std::cout << "creando enemigo" << std::endl;
 		}
 	}
-			std::cout << "creando enemigo" << std::endl;
 }
 
 void button::draw()

@@ -1,5 +1,5 @@
 ﻿  main.cpp
-  World.cpp
-  Generando código...
-main.obj : error LNK2001: símbolo externo "private: static class LoW::World * LoW::World::instance" (?instance@World@LoW@@0PEAV12@EA) sin resolver
-..\..\bin\Debug\raylib-quickstart.exe : fatal error LNK1120: 1 externos sin resolver
+C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\include\World.h(47,14): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "../../src/main.cpp")
+  
+  raylib-quickstart.vcxproj -> C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe

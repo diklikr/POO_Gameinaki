@@ -80,7 +80,7 @@ int main ()
 	UIsystem::getInstance().createbutton("Press to spawn", 300, 600, 240, 60, 30);
 
 	Texture t = LoadTexture("pingu.png");
-	UIsystem::getInstance().createimage(350, 350, t);
+	UIsystem::getInstance().createimage(GetScreenWidth() - t.width, 5, t);
 
 
 	// game loop
@@ -91,7 +91,7 @@ int main ()
 			obj->update();
 		}
 		
-
+		UIsystem::Update();
 		/*myObj->update();*/
 		playerCharacter->update();
 		sidekick->update();
