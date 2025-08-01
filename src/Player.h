@@ -4,7 +4,7 @@
 #include "Attacker.h"
 #include "Weapon.h"
 #include "Sidekick.h"
-#include "World.h"
+
 
 namespace LoW
 {
@@ -32,7 +32,7 @@ namespace LoW
 	{
 	private: 
 		SAnimData animData;
-
+		
 		Attacker* weapon;
 		Sidekick* sdk;
 		Sidekick* sidekicks[2];
@@ -42,15 +42,13 @@ namespace LoW
 
 	public:
 		float speed = 10.0f;
-
+		Vector2 cameraOffset = { 0, 0 };
 		Player(Vector2 pos, std::string _name) :
 			weapon(nullptr), sidekicks{nullptr,nullptr}
 		{
 			texture = LoadTexture("boy-r.png");
 			animData.spriteHeight = 80;
 			animData.spriteWidth = 64;
-			 
-
 			animData.frameCounter = 0;
 			animData.currentFrame = 0;
 			animData.maxFrames = 4;

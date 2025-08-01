@@ -40,9 +40,11 @@ int main ()
 	Player* playerCharacter = new Player({ 260, 550}, "Player1");
 	playerCharacter->speed = 200.0f;
 
+	World::SetPlayer(playerCharacter);
 
 	GameObject::gameObjects.push_back(static_cast<GameObject*>(playerCharacter));
 
+	
 
 	Weapon* w = new Weapon({ 200,200 }, "Sword", LoadTexture("sword.png"));
 	//playerCharacter->SetWeapon(w);
@@ -100,7 +102,7 @@ int main ()
 		BeginDrawing();
 
 		// Setup the back buffer for drawing (clear color and depth buffers)
-		ClearBackground(SKYBLUE);
+		ClearBackground(BLACK);
 
 		World::getInstance().Draw();
 		// draw some text using the default font
@@ -126,7 +128,6 @@ int main ()
 		
 		EndDrawing();
 	}
-
 	
 	CloseWindow();
 	return 0;

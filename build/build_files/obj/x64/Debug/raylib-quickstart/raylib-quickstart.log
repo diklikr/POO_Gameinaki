@@ -1,5 +1,5 @@
-﻿  main.cpp
-C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\include\World.h(47,14): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-  (compilando archivo de origen "../../src/main.cpp")
-  
-  raylib-quickstart.vcxproj -> C:\Users\alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe
+﻿  Player.cpp
+  World.cpp
+  main.cpp
+  Generando código...
+  raylib-quickstart.vcxproj -> C:\Users\Alumnos\Documents\GitHub\POO_Gameinaki\bin\Debug\raylib-quickstart.exe
