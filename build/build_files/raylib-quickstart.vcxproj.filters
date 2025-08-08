@@ -25,6 +25,10 @@
     <ClInclude Include="..\..\include\image.h" />
     <ClInclude Include="..\..\include\enemigo.h" />
     <ClInclude Include="..\..\include\World.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Toolbox.h" />
+    <ClInclude Include="..\..\include\Singleton.h" />
+    <ClInclude Include="..\..\include\Toolbox.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">

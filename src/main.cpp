@@ -11,6 +11,7 @@
 #include <vector>
 #include "button.h"
 #include "World.h"
+#include "Toolbox.h"
 
 
 //using namespace std;
@@ -84,7 +85,36 @@ int main ()
 	Texture t = LoadTexture("pingu.png");
 	UIsystem::getInstance().createimage(GetScreenWidth() - t.width, 5, t);
 
+	std::cout << "=== Prueba LinkedListNode ===" << std::endl;
 
+	// Crear nodos
+	LinkedListNode<std::string>* node1 = new LinkedListNode<std::string>("Gato");
+	LinkedListNode<std::string>* node2 = new LinkedListNode<std::string>("Arma");
+	LinkedListNode<std::string>* node3 = new LinkedListNode<std::string>("Zebra");
+
+	// Enlazar
+	node1->next = node2;
+	node2->next = node3;
+
+	// Iterar con while
+	LinkedListNode<std::string>* current = node1;
+
+	std::cout << "\n=== Prueba del Singleton con Toolbox ===" << std::endl;
+
+	Toolbox& tool1 = Toolbox::getInstance();
+	Toolbox& tool2 = Toolbox::getInstance();
+
+	tool1.printMessage("Hola desde Toolbox Singleton");
+
+	if (&tool1 == &tool2)
+		std::cout << "tool1 y tool2 son la misma instancia" << std::endl;
+	else
+		std::cout << "tool1 y tool2 son diferentes" << std::endl;
+	while (current != nullptr) {
+		current->print();
+		current = current->next;
+	}
+	
 	// game loop
 	while (!WindowShouldClose())		// run the loop untill the user presses ESCAPE or presses the Close button on the window
 	{
@@ -123,7 +153,9 @@ int main ()
 		/*myObj->draw();*/
 		playerCharacter->draw();
 		sidekick->draw();
-
+		
+		
+		
 
 		
 		EndDrawing();

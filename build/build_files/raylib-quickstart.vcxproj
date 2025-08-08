@@ -537,11 +537,15 @@
     <ClInclude Include="..\..\include\Label.h" />
     <ClInclude Include="..\..\include\resource_dir.h" />
     <ClInclude Include="..\..\include\Sidekick.h" />
+    <ClInclude Include="..\..\include\Singleton.h" />
+    <ClInclude Include="..\..\include\Toolbox.h" />
     <ClInclude Include="..\..\include\UIsystem.h" />
     <ClInclude Include="..\..\include\View.h" />
     <ClInclude Include="..\..\include\Weapon.h" />
     <ClInclude Include="..\..\include\World.h" />
     <ClInclude Include="..\..\src\Player.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Toolbox.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Attacker.cpp" />
