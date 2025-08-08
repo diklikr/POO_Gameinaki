@@ -105,6 +105,13 @@ int main ()
 	Toolbox& tool2 = Toolbox::getInstance();
 
 	tool1.printMessage("Hola desde Toolbox Singleton");
+	
+    LinkedList<std::string> linkedList; 
+    linkedList.add("Perro");
+    linkedList.add("Actor");
+    linkedList.add("Pez");
+
+	linkedList.print();
 
 	if (&tool1 == &tool2)
 		std::cout << "tool1 y tool2 son la misma instancia" << std::endl;
