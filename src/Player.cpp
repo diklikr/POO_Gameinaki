@@ -32,6 +32,9 @@ void Player::update()
 		newpos.y += speed * GetFrameTime();
 		animData.direction = ANIM_DOWN;
     }
+	if (IsKeyPressed(KEY_G)) {
+		NextWeapon();
+	}
 	if (!World::getInstance().CheckCollision(newpos))
 	{
 		position = newpos;
@@ -57,6 +60,37 @@ void Player::update()
 			w->position = Vector2Add(position, w->offset);
 				
 		}
+		
+	}
+
+
+	void Player::draw()
+	{
+		Rectangle r = { animData.spriteWidth * animData.currentFrame ,
+						animData.spriteHeight * animData.direction,
+						animData.spriteWidth,
+						animData.spriteHeight };
+		DrawTextureRec(texture, r, position, WHITE);
+		//DrawTexture(texture, position.x, position.y, WHITE);
+		Weapon* currentWeapon = inventory.GetCurrentWeapon();
+		if (currentWeapon) {
+			DrawText(currentWeapon->name.c_str(), 20, 50, 20, YELLOW);
+			DrawTexture(currentWeapon->texture, 20, 80, WHITE);
+		}
+		if (shouldPromptForWeapon)
+			DrawText(weaponPrompt, 20, GetScreenHeight() - 40, 20, YELLOW);
+	}
+
+	void Player::Fire()
+	{
+
+	}
+	void Player::SetWeapon(Weapon* weapon) {
+		
+		this->weapon = weapon;
+	}
+
+	void Player::PickupWeapon(Weapon* weapon) {
 		for (GameObject* obj : GameObject::gameObjects)
 		{
 			Weapon* w = dynamic_cast<Weapon*>(obj);
@@ -70,8 +104,10 @@ void Player::update()
 				if (IsKeyPressed(KEY_F))
 				{
 					SetWeapon(w);
+					//add to inventory
 					shouldPromptForWeapon = false;
 				}
+
 
 				break;
 			}
@@ -80,25 +116,9 @@ void Player::update()
 		}
 	}
 
-
-	void Player::draw()
-	{
-		Rectangle r = { animData.spriteWidth * animData.currentFrame ,
-						animData.spriteHeight * animData.direction,
-						animData.spriteWidth,
-						animData.spriteHeight };
-		DrawTextureRec(texture, r, position, WHITE);
-		//DrawTexture(texture, position.x, position.y, WHITE);
-
-		if (shouldPromptForWeapon)
-			DrawText(weaponPrompt, 20, GetScreenHeight() - 40, 20, YELLOW);
+	void Player::NextWeapon() {
+		
 	}
-
-	void Player::Fire()
-	{
-
-	}
-
 	Attacker* Player::SetWeapon(Attacker* newWeapon)
 	{
 		if (newWeapon)

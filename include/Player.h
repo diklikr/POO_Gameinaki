@@ -4,6 +4,7 @@
 #include "Attacker.h"
 #include "Weapon.h"
 #include "Sidekick.h"
+#include "inventory.h"
 
 
 namespace LoW
@@ -30,9 +31,9 @@ namespace LoW
 	class Player :
 		public GameObject, public Attacker
 	{
-	private: 
+	private:
 		SAnimData animData;
-		
+		inventory inventory;
 		Attacker* weapon;
 		Sidekick* sdk;
 		Sidekick* sidekicks[2];
@@ -44,7 +45,7 @@ namespace LoW
 		float speed = 10.0f;
 		Vector2 cameraOffset = { 0, 0 };
 		Player(Vector2 pos, std::string _name) :
-			weapon(nullptr), sidekicks{nullptr,nullptr}
+			weapon(nullptr), sidekicks{ nullptr,nullptr }
 		{
 			texture = LoadTexture("boy-r.png");
 			animData.spriteHeight = 80;
@@ -57,6 +58,10 @@ namespace LoW
 			position = pos;
 			animData.direction = ANIM_DOWN;
 		}
+		void SetWeapon(Weapon* weapon);
+		void PickupWeapon(Weapon* weapon);
+		void NextWeapon();
+		Weapon* GetCurrentWeapon();
 
 		void update() override;
 
@@ -74,4 +79,3 @@ namespace LoW
 
 	};
 }
-

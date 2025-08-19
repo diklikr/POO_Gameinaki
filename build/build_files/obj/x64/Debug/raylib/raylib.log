@@ -1,14 +1,14 @@
 ﻿  raudio.c
   rcore.c
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(60,9): warning C4005: 'MAX_PATH': redefinición de macro
-  (compilando archivo de origen "../external/raylib-master/src/rcore.c")
-      C:\Users\Alumnos\Desktop\ahhhhhhhhhhhhhhhhhhhhhh\POO_Gameinaki\build\external\raylib-master\src\rcore.c(166,17):
-      vea la definición anterior de “MAX_PATH”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(60,9): warning C4005: 'MAX_PATH': macro redefinition
+  (compiling source file '../external/raylib-master/src/rcore.c')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\build\external\raylib-master\src\rcore.c(166,17):
+      see previous definition of 'MAX_PATH'
   
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': redefinición de macro
-  (compilando archivo de origen "../external/raylib-master/src/rcore.c")
-      C:\Users\Alumnos\Desktop\ahhhhhhhhhhhhhhhhhhhhhh\POO_Gameinaki\build\external\raylib-master\src\external\glfw\include\GLFW\glfw3.h(123,11):
-      vea la definición anterior de “APIENTRY”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file '../external/raylib-master/src/rcore.c')
+      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\build\external\raylib-master\src\external\glfw\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
   
   rglfw.c
   rmodels.c
@@ -16,5 +16,5 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(1
   rtext.c
   rtextures.c
   utils.c
-  Generando código...
-  raylib.vcxproj -> C:\Users\Alumnos\Desktop\ahhhhhhhhhhhhhhhhhhhhhh\POO_Gameinaki\bin\Debug\raylib.lib
+  Generating Code...
+  raylib.vcxproj -> C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\bin\Debug\raylib.lib

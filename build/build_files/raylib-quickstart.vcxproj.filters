@@ -29,6 +29,7 @@
     <ClInclude Include="Toolbox.h" />
     <ClInclude Include="..\..\include\Singleton.h" />
     <ClInclude Include="..\..\include\Toolbox.h" />
+    <ClInclude Include="..\..\include\inventory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -47,5 +48,6 @@
     <ClCompile Include="..\..\src\image.cpp" />
     <ClCompile Include="..\..\src\enemigo.cpp" />
     <ClCompile Include="..\..\src\World.cpp" />
+    <ClCompile Include="..\..\src\inventory.cpp" />
   </ItemGroup>
 </Project>
