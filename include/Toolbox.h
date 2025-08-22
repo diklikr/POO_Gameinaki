@@ -45,7 +45,7 @@ class LinkedList
 public:
 	LinkedListNode<T>* head;
 	LinkedList() : head(nullptr) {}
-	void add(T value) {
+	void add(T* value) {
 		LinkedListNode<T>* newNode = new LinkedListNode<T>(value);
 		if (!head) {
 			head = newNode;

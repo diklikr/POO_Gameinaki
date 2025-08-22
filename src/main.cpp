@@ -107,9 +107,9 @@ int main ()
 	tool1.printMessage("Hola desde Toolbox Singleton");
 	
     LinkedList<std::string> linkedList; 
-    linkedList.add("Perro");
-    linkedList.add("Actor");
-    linkedList.add("Pez");
+    linkedList.add( &std::string("Perro"));
+    linkedList.add(&std::string("Actor"));
+    linkedList.add(&std::string("Pez"));
 
 	/*linkedList.print();*/
 
