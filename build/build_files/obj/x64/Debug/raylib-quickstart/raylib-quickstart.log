@@ -1,135 +1,80 @@
-﻿  Attacker.cpp
-  button.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(22,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(22,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(22,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(22,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(23,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\button.cpp(23,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  EjemploConstCast.cpp
-  enemigo.cpp
-  GameObject.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\GameObject.cpp(13,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\GameObject.cpp(13,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\GameObject.cpp(17,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\GameObject.cpp(17,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  image.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\image.cpp(8,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\image.cpp(8,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  inventory.cpp
-  Label.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\Label.cpp(9,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\Label.cpp(9,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  main.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7): error C2953: 'LinkedListNode': class template has already been defined
-  (compiling source file '../../src/main.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
+﻿  main.cpp
+C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53): error C2665: 'LinkedListNode<T>::LinkedListNode':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53): error C2665:         with
+C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53): error C2665:         [
+C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53): error C2665:             T=std::string
+C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53): error C2665:         ]
+  (compilando archivo de origen "../../src/main.cpp")
+      C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\inventory.h(11,1):
+      puede ser 'LinkedListNode<T>::LinkedListNode(LinkedListNode<T> &&)'
+          with
+          [
+              T=std::string
+          ]
+          C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53):
+          'LinkedListNode<T>::LinkedListNode(LinkedListNode<T> &&)': el argumento 1 no puede convertirse de 'T' a 'LinkedListNode<T> &&'
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,54):
+              Razón: no se puede realizar la conversión de 'T' a 'LinkedListNode<T>'
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,54):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\inventory.h(11,1):
+      o       'LinkedListNode<T>::LinkedListNode(const LinkedListNode<T> &)'
+          with
+          [
+              T=std::string
+          ]
+          C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53):
+          'LinkedListNode<T>::LinkedListNode(const LinkedListNode<T> &)': el argumento 1 no puede convertirse de 'T' a 'const LinkedListNode<T> &'
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,54):
+              Razón: no se puede realizar la conversión de 'T' a 'const LinkedListNode<T>'
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,54):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\inventory.h(10,5):
+      o       'LinkedListNode<T>::LinkedListNode(T *)'
+          with
+          [
+              T=std::string
+          ]
+          C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53):
+          'LinkedListNode<T>::LinkedListNode(T *)': el argumento 1 no puede convertirse de 'T' a 'T *'
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,54):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53):
+      al hacer coincidir la lista de argumentos '(T)'
+          with
+          [
+              T=std::string
+          ]
+      C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(49,53):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\src\main.cpp(109,29):
+          Vea la referencia a la creación de una instancia de clase plantilla "LinkedList<std::string>" que se está compilando
+          C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\include\Toolbox.h(48,7):
+          al compilar la función del miembro clase plantilla "void LinkedList<std::string>::add(T)"
+          with
+          [
+              T=std::string
+          ]
+              C:\Users\ALUMNOS\Desktop\raylib_inaki\POO_Gameinaki\src\main.cpp(110,19):
+              vea la primera referencia a “LinkedList<std::string>::add” en “main”
   
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(46,21): error C2955: 'LinkedListNode': use of class template requires template argument list
-  (compiling source file '../../src/main.cpp')
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(46,21):
-      the template instantiation context (the oldest one first) is
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(43,7):
-          while compiling class template 'LinkedList'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,31): error C2955: 'LinkedListNode': use of class template requires template argument list
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70): error C2641: cannot deduce template arguments for 'LinkedListNode'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70): error C2893: Failed to specialize function template 'LinkedListNode<T> LinkedListNode(T *)'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\inventory.h(10,5):
-      see declaration of 'LinkedListNode'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70):
-      With the following template arguments:
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70):
-          'T=const char'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70): error C2784: 'LinkedListNode<T> LinkedListNode(LinkedListNode<T>)': could not deduce template argument for 'LinkedListNode<T>' from 'const char [5]'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(91,70): error C2514: 'LinkedListNode': class template cannot be constructed
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,31): error C2955: 'LinkedListNode': use of class template requires template argument list
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70): error C2641: cannot deduce template arguments for 'LinkedListNode'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70): error C2893: Failed to specialize function template 'LinkedListNode<T> LinkedListNode(T *)'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\inventory.h(10,5):
-      see declaration of 'LinkedListNode'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70):
-      With the following template arguments:
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70):
-          'T=const char'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70): error C2784: 'LinkedListNode<T> LinkedListNode(LinkedListNode<T>)': could not deduce template argument for 'LinkedListNode<T>' from 'const char [5]'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(92,70): error C2514: 'LinkedListNode': class template cannot be constructed
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,31): error C2955: 'LinkedListNode': use of class template requires template argument list
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70): error C2641: cannot deduce template arguments for 'LinkedListNode'
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70): error C2893: Failed to specialize function template 'LinkedListNode<T> LinkedListNode(T *)'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\inventory.h(10,5):
-      see declaration of 'LinkedListNode'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70):
-      With the following template arguments:
-          C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70):
-          'T=const char'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70): error C2784: 'LinkedListNode<T> LinkedListNode(LinkedListNode<T>)': could not deduce template argument for 'LinkedListNode<T>' from 'const char [6]'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(93,70): error C2514: 'LinkedListNode': class template cannot be constructed
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(96,16): error C2440: '=': cannot convert from 'LinkedListNode *' to 'LinkedListNode<T> *'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(96,16):
-      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(97,16): error C2440: '=': cannot convert from 'LinkedListNode *' to 'LinkedListNode<T> *'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(97,16):
-      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(100,31): error C2955: 'LinkedListNode': use of class template requires template argument list
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(121,12): error C2039: 'print': is not a member of 'LinkedListNode'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\include\Toolbox.h(28,7):
-      see declaration of 'LinkedListNode'
-  
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(122,20): error C2440: '=': cannot convert from 'LinkedListNode<T> *' to 'LinkedListNode *'
-      C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\main.cpp(122,20):
-      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-  
-  Player.cpp
-  Sidekick.cpp
-  UIsystem.cpp
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(9,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(10,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(20,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(21,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(22,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(23,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(32,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\inaki\OneDrive\Desktop\School\TRI 3\POO_Gameinaki\src\UIsystem.cpp(33,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  View.cpp
-  Weapon.cpp
-  World.cpp
-  Generating Code...

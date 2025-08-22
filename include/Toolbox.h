@@ -24,20 +24,20 @@ public:
    Toolbox& operator=(const Toolbox&) = delete;  
 }; 
 
-template <typename T>  
-class LinkedListNode {  
-public:  
-   friend class Singleton<Toolbox>; // Permitir acceso al constructor privado  
-   T data;  
-   LinkedListNode<T>* next;  
-
-   LinkedListNode(T value) : data(value), next(nullptr) {}  
-
-   void print() {  
-       std::cout << data << std::endl;  
-       
-   }  
-};
+//template <typename T>  
+//class LinkedListNode {  
+//public:  
+//   friend class Singleton<Toolbox>; // Permitir acceso al constructor privado  
+//   T data;  
+//   LinkedListNode<T>* next;  
+//
+//   LinkedListNode(T value) : data(value), next(nullptr) {}  
+//
+//   void print() {  
+//       std::cout << data << std::endl;  
+//       
+//   }  
+//};
 
 template <typename T>
 class LinkedList
@@ -58,13 +58,13 @@ public:
 			current->next = newNode;
 		}
 	}
-	void print() {
+	/*void print() {
 		LinkedListNode<T>* current = head;
 		while (current) {
 			current->print();
 			current = current->next;
 		}
-	}
+	}*/
 };
 
 
