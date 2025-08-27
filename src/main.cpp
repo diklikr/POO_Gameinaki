@@ -13,12 +13,16 @@
 #include "World.h"
 #include "Toolbox.h"
 
+#include "DLLWrapper.h"
+
 
 //using namespace std;
 using namespace LoW;
 
 int main ()
 {
+
+	DLLWrapper::MBWarning(L"",L"");
 	// Tell the window to use vsync and work on high DPI displays
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
 	std::cout << "Inicializando sistema de juego" << std::endl;

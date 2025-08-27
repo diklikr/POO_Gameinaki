@@ -545,8 +545,12 @@
     <ClInclude Include="..\..\include\Weapon.h" />
     <ClInclude Include="..\..\include\World.h" />
     <ClInclude Include="..\..\src\Player.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Toolbox.h" />
+=======
+    <ClInclude Include="DLLWrapper.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Attacker.cpp" />
@@ -564,6 +568,7 @@
     <ClCompile Include="..\..\src\View.cpp" />
     <ClCompile Include="..\..\src\Weapon.cpp" />
     <ClCompile Include="..\..\src\World.cpp" />
+    <ClCompile Include="DLLWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="raylib.vcxproj">

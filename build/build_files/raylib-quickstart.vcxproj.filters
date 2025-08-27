@@ -25,11 +25,15 @@
     <ClInclude Include="..\..\include\image.h" />
     <ClInclude Include="..\..\include\enemigo.h" />
     <ClInclude Include="..\..\include\World.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Toolbox.h" />
     <ClInclude Include="..\..\include\Singleton.h" />
     <ClInclude Include="..\..\include\Toolbox.h" />
     <ClInclude Include="..\..\include\inventory.h" />
+=======
+    <ClInclude Include="DLLWrapper.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -48,6 +52,10 @@
     <ClCompile Include="..\..\src\image.cpp" />
     <ClCompile Include="..\..\src\enemigo.cpp" />
     <ClCompile Include="..\..\src\World.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="..\..\src\inventory.cpp" />
+=======
+    <ClCompile Include="DLLWrapper.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

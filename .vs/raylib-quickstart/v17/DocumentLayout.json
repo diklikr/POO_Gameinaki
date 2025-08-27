@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\",
   "Documents": [
     {
@@ -100,6 +101,104 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Attacker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:build\\build_files\\DLLWrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:build\\build_files\\DLLWrapper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Sidekick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\Sidekick.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Attacker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\Attacker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\UIsystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\UIsystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\UIsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\UIsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\View.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\View.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Label.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:include\\Label.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Label.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\Label.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Sidekick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\Sidekick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Attacker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{E0D8FA17-4CEF-F8AD-9566-84CF01BCC935}|build\\build_files\\raylib-quickstart.vcxproj|solutionrelative:src\\Attacker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -113,6 +212,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -195,6 +295,67 @@
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Sidekick.h",
               "RelativeDocumentMoniker": "include\\Sidekick.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Sidekick.h",
+=======
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DLLWrapper.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.cpp",
+              "RelativeDocumentMoniker": "build\\build_files\\DLLWrapper.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.cpp",
+              "RelativeToolTip": "build\\build_files\\DLLWrapper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-27T21:11:05.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DLLWrapper.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.h",
+              "RelativeDocumentMoniker": "build\\build_files\\DLLWrapper.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\build\\build_files\\DLLWrapper.h",
+              "RelativeToolTip": "build\\build_files\\DLLWrapper.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-27T21:10:45.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "World.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\World.cpp",
+              "RelativeDocumentMoniker": "src\\World.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\World.cpp",
+              "RelativeToolTip": "src\\World.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-13T20:26:53.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "World.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\World.h",
+              "RelativeDocumentMoniker": "include\\World.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\World.h",
+              "RelativeToolTip": "include\\World.h",
+              "ViewState": "AgIAABwAAAAAAAAAAAD4vzYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T19:15:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Sidekick.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Sidekick.h",
+              "RelativeDocumentMoniker": "include\\Sidekick.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Sidekick.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\Sidekick.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -202,6 +363,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Toolbox.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Toolbox.h",
@@ -234,11 +396,21 @@
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\ahhhhhhhhhhhhhhhhhhhhhh\\POO_Gameinaki\\src\\Player.h",
               "RelativeToolTip": "..\\..\\ahhhhhhhhhhhhhhhhhhhhhh\\POO_Gameinaki\\src\\Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+=======
+              "DocumentIndex": 12,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.h",
+              "RelativeDocumentMoniker": "src\\Player.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.h",
+              "RelativeToolTip": "src\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-16T20:34:28.804Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
               "Title": "World.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\World.cpp",
@@ -268,6 +440,37 @@
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\GameObject.h",
               "RelativeDocumentMoniker": "include\\GameObject.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\GameObject.h",
+=======
+              "DocumentIndex": 11,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.cpp",
+              "RelativeDocumentMoniker": "src\\Player.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Player.cpp",
+              "RelativeToolTip": "src\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-19T19:43:58.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "button.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\button.h",
+              "RelativeDocumentMoniker": "include\\button.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\button.h",
+              "RelativeToolTip": "include\\button.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-02T20:01:48.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\GameObject.h",
+              "RelativeDocumentMoniker": "include\\GameObject.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\GameObject.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\GameObject.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAtwBQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -275,6 +478,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
               "Title": "Singleton.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Singleton.h",
@@ -292,6 +496,26 @@
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\UIsystem.h",
               "RelativeDocumentMoniker": "include\\UIsystem.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\UIsystem.h",
+=======
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T19:10:54.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UIsystem.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\UIsystem.h",
+              "RelativeDocumentMoniker": "include\\UIsystem.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\UIsystem.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\UIsystem.h",
               "ViewState": "AgIAABEAAAAAAAAAAIAwwCAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -299,11 +523,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
               "Title": "Attacker.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Attacker.h",
               "RelativeDocumentMoniker": "include\\Attacker.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Attacker.h",
+=======
+              "DocumentIndex": 14,
+              "Title": "Attacker.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Attacker.h",
+              "RelativeDocumentMoniker": "include\\Attacker.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Attacker.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\Attacker.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -311,11 +543,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 23,
               "Title": "Sidekick.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Sidekick.cpp",
               "RelativeDocumentMoniker": "src\\Sidekick.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Sidekick.cpp",
+=======
+              "DocumentIndex": 22,
+              "Title": "Sidekick.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Sidekick.cpp",
+              "RelativeDocumentMoniker": "src\\Sidekick.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Sidekick.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\Sidekick.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -323,11 +563,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 22,
               "Title": "Label.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Label.cpp",
               "RelativeDocumentMoniker": "src\\Label.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Label.cpp",
+=======
+              "DocumentIndex": 21,
+              "Title": "Label.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Label.cpp",
+              "RelativeDocumentMoniker": "src\\Label.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Label.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\Label.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -335,11 +583,31 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 21,
               "Title": "Label.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Label.h",
               "RelativeDocumentMoniker": "include\\Label.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\Label.h",
+=======
+              "DocumentIndex": 19,
+              "Title": "View.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\View.h",
+              "RelativeDocumentMoniker": "include\\View.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\View.h",
+              "RelativeToolTip": "include\\View.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-30T22:02:01.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Label.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Label.h",
+              "RelativeDocumentMoniker": "include\\Label.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Label.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\Label.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -347,11 +615,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
               "Title": "button.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\button.cpp",
               "RelativeDocumentMoniker": "src\\button.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\button.cpp",
+=======
+              "DocumentIndex": 6,
+              "Title": "button.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\button.cpp",
+              "RelativeDocumentMoniker": "src\\button.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\button.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\button.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -359,11 +635,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
               "Title": "image.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\image.h",
               "RelativeDocumentMoniker": "include\\image.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\image.h",
+=======
+              "DocumentIndex": 3,
+              "Title": "image.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\image.h",
+              "RelativeDocumentMoniker": "include\\image.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\image.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\image.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -371,11 +655,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 19,
               "Title": "enemigo.h",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\enemigo.h",
               "RelativeDocumentMoniker": "include\\enemigo.h",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\include\\enemigo.h",
+=======
+              "DocumentIndex": 17,
+              "Title": "enemigo.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\enemigo.h",
+              "RelativeDocumentMoniker": "include\\enemigo.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\enemigo.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "include\\enemigo.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -383,11 +675,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
               "Title": "image.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\image.cpp",
               "RelativeDocumentMoniker": "src\\image.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\image.cpp",
+=======
+              "DocumentIndex": 4,
+              "Title": "image.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\image.cpp",
+              "RelativeDocumentMoniker": "src\\image.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\image.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\image.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -395,11 +695,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 20,
               "Title": "UIsystem.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\UIsystem.cpp",
               "RelativeDocumentMoniker": "src\\UIsystem.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\UIsystem.cpp",
+=======
+              "DocumentIndex": 18,
+              "Title": "UIsystem.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\UIsystem.cpp",
+              "RelativeDocumentMoniker": "src\\UIsystem.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\UIsystem.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\UIsystem.cpp",
               "ViewState": "AgIAAAoAAAAAAAAAAIAwwDMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -407,11 +715,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 24,
               "Title": "Attacker.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Attacker.cpp",
               "RelativeDocumentMoniker": "src\\Attacker.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\Attacker.cpp",
+=======
+              "DocumentIndex": 23,
+              "Title": "Attacker.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Attacker.cpp",
+              "RelativeDocumentMoniker": "src\\Attacker.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\Attacker.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\Attacker.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -419,11 +735,31 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\GameObject.cpp",
               "RelativeDocumentMoniker": "src\\GameObject.cpp",
               "ToolTip": "C:\\Users\\ALUMNOS\\Desktop\\raylib_inaki\\POO_Gameinaki\\src\\GameObject.cpp",
+=======
+              "DocumentIndex": 10,
+              "Title": "Weapon.h",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Weapon.h",
+              "RelativeDocumentMoniker": "include\\Weapon.h",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\include\\Weapon.h",
+              "RelativeToolTip": "include\\Weapon.h",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwCEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-16T20:53:49.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\GameObject.cpp",
+              "RelativeDocumentMoniker": "src\\GameObject.cpp",
+              "ToolTip": "C:\\Users\\Alumnos\\Desktop\\POO_Gameinaki\\src\\GameObject.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "src\\GameObject.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
