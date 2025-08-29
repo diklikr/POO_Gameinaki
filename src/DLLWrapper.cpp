@@ -1,6 +1,17 @@
 #include "DLLWrapper.h"
+#include "MyLibrary.h"
 
 int DLLWrapper::MBError(const wchar_t* message, const wchar_t* boxTitle)
 {
-	return MyMessageBoxError
+	return MyMessageBoxError(message, boxTitle);
+}
+
+int DLLWrapper::MBWarning(const wchar_t* message, const wchar_t* boxTitle)
+{
+	return MyMessageBoxWarning(message, boxTitle);
+}
+
+int DLLWrapper::httpGet(const char* url, WriteCallback callback)
+{
+	return HTTPGet(url, callback);
 }

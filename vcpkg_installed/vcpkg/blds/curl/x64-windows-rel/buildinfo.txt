@@ -1,0 +1,15 @@
+# This is a generated file.  Do not edit.
+buildinfo.configure.tool: cmake
+buildinfo.configure.command: C:/Users/Alumnos/AppData/Local/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe
+buildinfo.configure.version: 3.30.1
+buildinfo.configure.args:
+buildinfo.configure.generator: Ninja
+buildinfo.configure.make: C:/Users/Alumnos/AppData/Local/vcpkg/downloads/tools/ninja/1.10.2-windows/ninja.exe
+buildinfo.host.cpu: AMD64
+buildinfo.host.os: Windows
+buildinfo.target.cpu: AMD64
+buildinfo.target.os: Windows
+buildinfo.target.flags: WIN32 MSVC-1943 VCPKG
+buildinfo.compiler: MSVC
+buildinfo.compiler.version: 19.43.34809.0
+buildinfo.sysroot: 

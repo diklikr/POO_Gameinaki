@@ -22,7 +22,10 @@ using namespace LoW;
 int main ()
 {
 
-	DLLWrapper::MBWarning(L"",L"");
+	DLLWrapper::MBWarning(L"Hola dll",L"desde dll");
+
+	DLLWrapper::httpGet("http://monsterballgo.com/api/names", httpGetCB);
+
 	// Tell the window to use vsync and work on high DPI displays
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
 	std::cout << "Inicializando sistema de juego" << std::endl;
